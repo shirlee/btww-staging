@@ -5,7 +5,8 @@ class ApplicationController < ActionController::Base
 #  before_filter :contest_end_redirect, :except => [:contest_ended]
 
 #  APP_DOMAIN = 'www.bike2workweek.com'
-  APP_DOMAIN = 'reg.bikecommuterchallenge.org'
+  APP_DOMAIN = 'btww-staging.herokuapp.com'
+#  APP_DOMAIN = 'reg.bikecommuterchallenge.org'
 
 
   def contest_end_redirect
